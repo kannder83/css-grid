@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px red solid;
 }
 
 .header {
@@ -10,9 +9,36 @@
   justify-content: space-between; */
 }
 .container-header {
-  /* max-width: 1024px; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-  /* align-items: center; */
+  padding: 10px;
+}
+
+.header-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo figure {
+  padding: 0;
+}
+
+.header-logo figure img {
+  width: 50px;
+}
+
+.header-logo p {
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.search {
+  width: 100%;
+}
+
+.user {
+  width: 100%;
 }
